@@ -30,7 +30,7 @@ const mathsGuy = (func, a, b) => {
     console.log(result);
     return result;
 };
-mathsGuy(wrongAdd, Numbers.One, Numbers.Two);
+mathsGuy(add, Numbers.One, Numbers.Two);
 var IDs;
 (function (IDs) {
     IDs[IDs["Sam"] = 0] = "Sam";
